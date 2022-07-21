@@ -1,0 +1,32 @@
+:root {
+  --cr:#6495ed;
+  --cl:#77b5fe;
+  --br:#71a6d2;
+  --ba:#b0c4de;
+  }
+  
+  .circle {
+  border-radius:50%;
+  background:linear-gradient(to left,var(--cr),var(--cl));
+  padding:20px 14px;
+  width:330px;
+  height:200px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  animation:block 10s forwards;
+  }
+
+  .circle .txt {
+    position:absolute;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    color:white;
+    font-family:'Poppins',sans-serif;
+    font-weight:bold;
+    font-size:33px;
+    left:33%;
+top:23%;
+    }
